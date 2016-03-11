@@ -33,13 +33,13 @@ public class MyStringStack {
      * @see         String
      */
     public String pop() throws NoSuchElementException {
-    	throw new NoSuchElementException();
-//    	String result = v.lastElement();
-//    	v.remove(result);
-//    	System.out.println("hello");
-//    	return result;
+//    	throw new NoSuchElementException();
+    	String result = v.lastElement();
+    	v.remove(result);
+    	System.out.println("hello");
+    	return result;
 
-        //return v.lastElement();
+//        return v.lastElement();
     }
     public boolean isEmpty() {
         return v.isEmpty();
